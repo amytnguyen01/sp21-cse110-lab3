@@ -1,8 +1,15 @@
+header{
+    display: flex;
+}
+
 
 h1{
-    color:antiquewhite;
+
     text-align: center;
-    text-decoration:overline;
+    margin-top: 30px;
+    margin-bottom:10px;
+    margin-right:70px;
+    margin-left:600px;
     /* border */ 
     border-style:solid;
     border-radius: 0.2cm;
@@ -13,20 +20,56 @@ h1{
     margin: auto
     /* Short padding */ 
     padding: 25px 50px 75px;
-    font-family: 'Yeseva One', regular;
+    
     /* First absolute unit */ 
     font-size:0.8in;
     color: white;
-    
-    
-
+    display: inline-block;
 
 }
 
-p{
+#github{
+
+    color:rgb(58, 112, 124);
+    text-align:center;
+    margin-right:7in;
+    margin-left: 9.5in;
+}
+
+/* Id Selector */ 
+#week{
+
+    text-align:center;
+    margin-left:1.8cm;
+}
+
+
+/* Pseudo-class selector */ 
+a:hover{
+
+    color:antiquewhite;
+
+}
+
+a:active{
+
+    color:antiquewhite;
+
+}
+
+a{
+    color:rgb(58, 112, 124);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Yeseva One', regular;
+    margin-bottom: 100px;
     
-    margin-top: 30px;
-    margin-bottom:10px;
+}
+p{
+    /* Turned paragraph text into plain */ 
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-bottom:20px;
     margin-right:10px;
     margin-left:10px;
     /* Turned paragraph text into plain */ 
@@ -45,39 +88,95 @@ p{
 }
 
 h2{
-    color: antiquewhite;
-    padding-top: ;
-    padding-bottom: ;
-    padding-right: ;
-    padding-left: ;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
     /* long margin */ 
-    margin-top: 1px;
-    margin-bottom:20px;
-    margin-right:10px;
-    margin-left:10px;
+    margin:auto
 
-    font-family: 'Yeseva One', regular;
+    
     /* Second absolute unit */ 
     font-size: 1.05cm;
     color:hsl(#FFFFFF,#FFFFFF,#FFFFFF);
+    text-decoration: solid;
 
 }
+
+/* Class selector */ 
+.intro{
+
+    color:black;
+
+}
+
+/* Universal selector */ 
+*.intro{
+
+    color:black;
+}
+
+/* Selector list */ 
+h1,h2,h3{
+
+    color: antiquewhite;
+    font-family: 'Yeseva One', regular;
+
+}
+
+/* Element selector */ 
 h3{
 
     /* Short margin */ 
     margin: 10px 10px 30px 10px;
-    font-family: 'Yeseva One', regular;
     /* Relative unit 1 */
     font-size: 4vh;
-    color:antiquewhite;
+    display: block;
 }
 
-ul{
+/* Attriute selector */ 
+[class|="date"]{
 
+    color:rgb(151, 151, 226);
+}
+
+/* Descendant Combinator */ 
+ul li {
+
+    
+    list-style-type: circle;
+}
+
+/* Child Combinator */ 
+ul > li{
+
+    font-family: 'Roboto' sans-serif;
+    
+}
+
+/* Adjacent sibling combinator */ 
+h1 + p{
+
+    font-family: "Yeseva One", regular;
+}
+
+/* Selector list */ 
+ul,ol{
+
+    
+    display: block;
     color:rgb(29, 27, 27);
+    
 }
+
+/* Set background color */ 
 body{
 
     background-color:rgba(81, 124, 134, 0.377);
 }
 
+/* General sibling combinator */ 
+h1 ~ p {
+
+    background-color: rgb(206, 232, 248);
+}
