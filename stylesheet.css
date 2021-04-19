@@ -154,6 +154,13 @@ ul > li{
     
 }
 
+/* Combining two selectors */ 
+h1.intro{
+
+    size: 100px; 
+
+}
+
 /* Adjacent sibling combinator */ 
 h1 + p{
 
