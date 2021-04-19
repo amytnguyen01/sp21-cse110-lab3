@@ -1,0 +1,72 @@
+
+h1{
+
+    text-align: center;
+    text-decoration:overline;
+    /* border */ 
+    border-style:solid;
+    border-radius: 0.2cm;
+    border-width: 0.1cm;
+    border-color: black;
+
+    /* margin */ 
+    margin: auto
+
+    /* Short padding */ 
+    padding: 25px 50px 75px;
+    font-family: 'Yeseva One', regular;
+    /* First absolute unit */ 
+    font-size:0.8in;
+    color:black
+}
+
+p{
+    margin-top: 1px;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-left:10px;
+    /* Turned paragraph text into plain */ 
+    font-family: 'Roboto', sans-serif;
+    /* Third absolute unit */ 
+    font-size: 17px;
+    font-weight:200;
+    /* Relative unit 3 */ 
+    min-height: 100lh;
+    height: 100lh;
+    /* Relative unit 2 */ 
+    min-width: 40vw;
+    width: 40vw;
+    color:(#000000);
+}
+h2{
+
+    padding-top: ;
+    padding-bottom: ;
+    padding-right: ;
+    padding-left: ;
+    /* long margin */ 
+    margin-top: 1px;
+    margin-bottom:20px;
+    margin-right:10px;
+    margin-left:10px;
+
+    font-family: 'Yeseva One', regular;
+    /* Second absolute unit */ 
+    font-size: 1.05cm;
+    color:hsl(0,0,0);
+
+}
+h3{
+
+    /* Short margin */ 
+    margin: 10px 10px 30px 10px;
+    font-family: 'Yeseva One', regular;
+    /* Relative unit 1 */
+    font-size: 4vh;
+    color:black;
+}
+body{
+
+    background-color:rgba(0, 0, 0, 0.075);
+}
+
