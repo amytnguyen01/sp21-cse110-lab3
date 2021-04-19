@@ -34,6 +34,7 @@ h1{
     text-align:center;
     margin-right:7in;
     margin-left: 9.5in;
+    background-color: lightblue;
 }
 
 /* Id Selector */ 
@@ -41,6 +42,12 @@ h1{
 
     text-align:center;
     margin-left:1.8cm;
+}
+
+#papajohns{
+
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;;
 }
 
 
@@ -67,13 +74,13 @@ a{
 }
 p{
     /* Turned paragraph text into plain */ 
-    font-family: 'Roboto', sans-serif;
+    
     margin-top: 10px;
     margin-bottom:20px;
     margin-right:10px;
     margin-left:10px;
     /* Turned paragraph text into plain */ 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: rgba(18, 18, 19, 0.705);
     /* Third absolute unit */ 
     font-size: 20px;
@@ -120,7 +127,7 @@ h2{
 h1,h2,h3{
 
     color: antiquewhite;
-    font-family: 'Yeseva One', regular;
+    font-family: 'Vollkorn', serif;
 
 }
 
@@ -176,6 +183,10 @@ ul,ol{
     
 }
 
+form, details{
+
+    font-family: 'Roboto', sans-serif;
+}
 /* Set background color */ 
 body{
 
@@ -185,5 +196,5 @@ body{
 /* General sibling combinator */ 
 h1 ~ p {
 
-    background-color: rgb(206, 232, 248);
+    text-align: left;
 }
