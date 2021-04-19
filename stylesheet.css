@@ -1,45 +1,51 @@
 
 h1{
-
+    color:antiquewhite;
     text-align: center;
     text-decoration:overline;
     /* border */ 
     border-style:solid;
     border-radius: 0.2cm;
-    border-width: 0.1cm;
-    border-color: black;
+    border-width: 3px;
+    border-color: rgba(58, 112, 124, 0.377);
 
     /* margin */ 
     margin: auto
-
     /* Short padding */ 
     padding: 25px 50px 75px;
     font-family: 'Yeseva One', regular;
     /* First absolute unit */ 
     font-size:0.8in;
-    color:black
+    color: white;
+    
+    
+
+
 }
 
 p{
-    margin-top: 1px;
+    
+    margin-top: 30px;
     margin-bottom:10px;
     margin-right:10px;
     margin-left:10px;
     /* Turned paragraph text into plain */ 
     font-family: 'Roboto', sans-serif;
+    color: rgba(18, 18, 19, 0.705);
     /* Third absolute unit */ 
-    font-size: 17px;
-    font-weight:200;
+    font-size: 20px;
+    font-weight:300px;
     /* Relative unit 3 */ 
     min-height: 100lh;
     height: 100lh;
     /* Relative unit 2 */ 
     min-width: 40vw;
     width: 40vw;
-    color:(#000000);
+    
 }
-h2{
 
+h2{
+    color: antiquewhite;
     padding-top: ;
     padding-bottom: ;
     padding-right: ;
@@ -53,7 +59,7 @@ h2{
     font-family: 'Yeseva One', regular;
     /* Second absolute unit */ 
     font-size: 1.05cm;
-    color:hsl(0,0,0);
+    color:hsl(#FFFFFF,#FFFFFF,#FFFFFF);
 
 }
 h3{
@@ -63,10 +69,15 @@ h3{
     font-family: 'Yeseva One', regular;
     /* Relative unit 1 */
     font-size: 4vh;
-    color:black;
+    color:antiquewhite;
+}
+
+ul{
+
+    color:rgb(29, 27, 27);
 }
 body{
 
-    background-color:rgba(0, 0, 0, 0.075);
+    background-color:rgba(81, 124, 134, 0.377);
 }
 
